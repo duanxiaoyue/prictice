@@ -9,8 +9,8 @@
       <class name="com.webtest.personnel.personnal_files.File_Flush_Test">
         <methods>
           <include name="doBeforeSuite"/>
-          <include name="initAction"/>
           <include name="doAfterMethod"/>
+          <include name="initAction"/>
           <include name="testFlush"/>
         </methods>
       </class> <!-- com.webtest.personnel.personnal_files.File_Flush_Test -->
@@ -237,8 +237,10 @@
           <include name="doBeforeSuite"/>
           <include name="test_a1"/>
           <include name="doAfterMethod"/>
+          <include name="test_a2"/>
           <include name="test_a3"/>
           <include name="test_a4"/>
+          <include name="test_a5"/>
           <include name="Enter"/>
         </methods>
       </class> <!-- com.webtest.xingzheng.TestPart1_wupin -->
@@ -285,6 +287,14 @@
           <include name="testSearch"/>
         </methods>
       </class> <!-- com.webtest.renwu.rank -->
+      <class name="com.webtest.personnel.personnal_files.File_AdvancedSearch_Test">
+        <methods>
+          <include name="testAdvancedSearch"/>
+          <include name="doBeforeSuite"/>
+          <include name="doAfterMethod"/>
+          <include name="initAction"/>
+        </methods>
+      </class> <!-- com.webtest.personnel.personnal_files.File_AdvancedSearch_Test -->
       <class name="com.webtest.customer.test.NewSell_test">
         <methods>
           <include name="doBeforeSuite"/>
